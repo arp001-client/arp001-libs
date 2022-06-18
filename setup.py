@@ -116,7 +116,7 @@ setup(
     py_modules=["help"],
     py_modules=["services"],
     #
-    packages=find_packages(include=['maincli','maincli.*',` ` 'help', 'help.*', 'services', 'services.*']),  # Required
+    packages=find_packages(include=['maincli','maincli.*','help', 'help.*', 'services', 'services.*']),  # Required
     # Specify which Python versions you support. In contrast to the
     # 'Programming Language' classifiers above, 'pip install' will check this
     # and refuse to install the project if the version does not match. See
