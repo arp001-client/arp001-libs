@@ -49,7 +49,7 @@ setup(
     #
     # This field corresponds to the "Description" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#description-optional
-    long_description="hun base.help() for help to how to use(this is not avavilable in the current version and will be coming soon)",  # Optional
+    long_description="run base.help() for help to how to use(this is not avavilable in the current version and will be coming soon)",  # Optional
     # Denotes that our long_description is in Markdown; valid values are
     # text/plain, text/x-rst, and text/markdown
     #
