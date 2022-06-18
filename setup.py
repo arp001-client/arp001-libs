@@ -113,8 +113,8 @@ setup(
     # called `my_module.py` to exist:
     #
     py_modules=["maincli"],
-    py_modules=["help"]
-    py_modules=["services"]
+    py_modules=["help"],
+    py_modules=["services"],
     #
     packages=find_packages(include=['maincli','maincli.*',` ` 'help', 'help.*', 'services', 'services.*']),  # Required
     # Specify which Python versions you support. In contrast to the
