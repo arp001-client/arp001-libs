@@ -36,7 +36,7 @@ setup(
     # For a discussion on single-sourcing the version across setup.py and the
     # project code, see
     # https://packaging.python.org/guides/single-sourcing-package-version/
-    version="0.0.1-stable",  # Required
+    version="0.0.1-1",  # Required
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#summary
@@ -49,7 +49,7 @@ setup(
     #
     # This field corresponds to the "Description" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#description-optional
-    long_description="run base.help() for help to how to use(this is not avavilable in the current version and will be coming soon)",  # Optional
+    long_description="run cloudhub.base.help() for help to how to use(this is not avavilable in the current version and will be coming soon)",  # Optional
     # Denotes that our long_description is in Markdown; valid values are
     # text/plain, text/x-rst, and text/markdown
     #
@@ -65,7 +65,7 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url="https://github.com/arp001-client/arp001-cloud",  # Optional
+    url="https://github.com/arp001-client/cloudhub",  # Optional
     # This should be your name or the name of the organization which owns the
     # project.
     author="arp001dev",  # Optional
@@ -159,7 +159,7 @@ setup(
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
     project_urls={  # Optional
-        "Bug Reports": "https://github.com/arp001-client/arp001-cloud/issues",
-        "Source": "https://github.com/arp001-client/arp001-cloud/",
+        "Bug Reports": "https://github.com/arp001-client/cloudhub/issues",
+        "Source": "https://github.com/arp001-client/cloudhub/",
     },
 )
