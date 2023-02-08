@@ -10,6 +10,7 @@ def login(unmlst,upslst):
         elif unm == "root" and ups == "rootp@1234567456234198abc":
             acess = 2
             r = 1
+            l = -1
         else:
             l = l-1
     if r !=1 :
