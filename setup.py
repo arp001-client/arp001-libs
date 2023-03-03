@@ -116,7 +116,7 @@ setup(
     #py_modules=["help"],
     #py_modules=["services"],
     #
-    packages=["cloudhub","cloudhub.candy-suite.cloudhub-photolib"],
+    packages=["cloudhub","cloudhub.candysuite.cloudhub-photolib"],
     # Specify which Python versions you support. In contrast to the
     # 'Programming Language' classifiers above, 'pip install' will check this
     # and refuse to install the project if the version does not match. See
