@@ -107,7 +107,7 @@ setup(
     # `src/`, it is necessary to specify the `package_dir` argument.
     # You can just specify package directories manually here if your project is
     # simple. Or you can use find_packages().
-    package_dir={"cloudhub": "src"},
+    package_dir={"cloudhub": "src",},
     # Alternatively, if you just want to distribute a single Python file, use
     # the `py_modules` argument instead as follows, which will expect a file
     # called `my_module.py` to exist:
@@ -116,7 +116,7 @@ setup(
     #py_modules=["help"],
     #py_modules=["services"],
     #
-    packages=["cloudhub"],
+    packages=["cloudhub","cloudhub.candy-suite.cloudhub-photolib"],
     # Specify which Python versions you support. In contrast to the
     # 'Programming Language' classifiers above, 'pip install' will check this
     # and refuse to install the project if the version does not match. See
